@@ -1,0 +1,788 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(218, 28%, 13%);
+    .container{
+        margin: auto;
+        padding: 20px 0px;
+        .main-container{
+            .top-container{
+                .navbar{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 0px 20px;
+                    .fylo-top{
+                        .f-t{
+                            width: 80px;
+                        }
+                    }
+                    .navs{
+                        display: flex;
+                        flex-direction: row;
+                        gap: 20px;
+                        .navs-text{
+                            font-family:'Raleway' ;
+                            font-weight: 400;
+                            color: white;
+                            font-size: 14px;
+                        }
+                        .navs-text:hover{
+                            text-decoration: underline;
+                            cursor: pointer;
+                            font-weight: 700;
+                        }
+                    }
+                }
+                .image-top{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 40px 0px;
+                    .img-1{
+                        width: 90%;
+                    }
+                }
+                .bg-1{
+                    background-image: url(images/bg-curvy-mobile.svg);
+                    background-repeat: no-repeat;
+                    .block-1{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        text-align: center;
+                        gap: 15px;
+                        .text-1{
+                            font-size: 25px;
+                            line-height: 35px;
+                            font-family: 'Raleway';
+                            color: white;
+                            font-weight: 700;
+                        }
+                        .sub-text-1{
+                            padding: 0px 30px;
+                            font-family: 'Open Sans';
+                            color:white;
+                            font-size: 14px;
+                            line-height: 1.5em;
+                        }
+                        .gs{
+                            padding: 20px 0px 120px 0px ;
+                            .g-s{
+                                padding: 15px 80px;
+                                border-radius: 30px;
+                                background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%)) ;
+                                border: none;
+                                .g-s-text{
+                                    font-family: 'Raleway';
+                                    color: white;
+                                    font-weight: 700;
+                                }
+                            }
+                            .g-s:hover{
+                                background-image:linear-gradient(to right, hsl(176, 68%, 64%));
+                                cursor: pointer;
+                            }
+                        }
+                    }
+                }
+                .blocks{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    gap: 100px;
+                    .blocks2-3{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 100px;
+                        .block-2{
+                            display: flex;
+                            flex-direction: column;
+                            gap: 10px;
+                            width: 315px;
+                            .image-2{
+                                padding-bottom: 10px;
+                                .img-2{
+                                    width: 70px;
+                                }
+                            }
+                            .text-2{
+                                font-size: 18px;
+                                color: white;
+                                font-weight: 700;
+                                font-family: 'Raleway';
+                            }
+                            .sub-text-2{
+                                font-size: 14px;
+                                color: white;
+                                font-family: 'Open Sans';
+                                line-height: 1.5em;
+                            }
+                        }
+                        .block-3{
+                            display: flex;
+                            flex-direction: column;
+                            gap: 10px;
+                            width: 315px;
+                            .image-3{
+                                padding-bottom: 10px;
+                                .img-3{
+                                    width: 70px;
+                                }
+                            }
+                            .text-3{
+                                font-size: 18px;
+                                color: white;
+                                font-weight: 700;
+                                font-family: 'Raleway';
+                            }
+                            .sub-text-3{
+                                font-size: 14px;
+                                color: white;
+                                font-family: 'Open Sans';
+                                line-height: 1.5em;
+                            }
+                        }
+                    }
+                    .blocks4-5{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 100px;
+                        .block-4{
+                            display: flex;
+                            flex-direction: column;
+                            gap: 10px;
+                            width: 315px;
+                            .image-4{
+                                padding-bottom: 10px;
+                                .img-4{
+                                    width: 70px;
+                                }
+                            }
+                            .text-4{
+                                font-size: 18px;
+                                color: white;
+                                font-weight: 700;
+                                font-family: 'Raleway';
+                            }
+                            .sub-text-4{
+                                font-size: 14px;
+                                color: white;
+                                font-family: 'Open Sans';
+                                line-height: 1.5em;
+                            }
+                        }
+                        .block-5{
+                            display: flex;
+                            flex-direction: column;
+                            gap: 10px;
+                            width: 318px;
+                            .image-5{
+                                padding-bottom: 10px;
+                                .img-5{
+                                    width: 70px;
+                                }
+                            }
+                            .text-5{
+                                font-size: 18px;
+                                color: white;
+                                font-weight: 700;
+                                font-family: 'Raleway';
+                            }
+                            .sub-text-5{
+                                font-size: 14px;
+                                color: white;
+                                font-family: 'Open Sans';
+                                line-height: 1.5em;
+                            }
+                        }
+                    }
+                }
+                .mid-x-b6{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+                    padding: 100px 0px 150px 0px;
+                    .mid-image{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        .mid-img{
+                            width: 90%;
+                        }
+                    }
+                    .block-6{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 20px;    
+                        padding: 30px 20px 0px 20px;
+                        .text-6{
+                            font-size: 18px;
+                            color: white;
+                            font-weight: 700;
+                            font-family: 'Raleway';
+                        }
+                        .sub-text-6{
+                            font-size: 14px;
+                            color: white;
+                            font-family: 'Open Sans';
+                        }
+                        .sub-text-6-1{
+                            font-size: 14px;
+                            color: white;
+                            font-family: 'Open Sans';
+                        }
+                        .fylo-works{
+                            display: flex;
+                            flex-direction: column;
+                            width: fit-content;
+                            .text-x-img{
+                                display: flex;
+                                flex-direction: row;
+                                align-items: center;
+                                gap: 5px;
+                                .work{
+                                    .fylo-work{
+                                        color: hsl(176, 68%, 64%);
+                                        font-family: 'Open Sans';
+                                        font-size: 13px;
+                                    }
+                                }
+                                .arroww{
+                                    .arrow{
+                                        width: 20px;
+                                    }
+                                    .arrow:hover{
+                                        fill: white;
+                                    }
+                                }
+                            }
+                            .line{
+                                width: 100%;
+                                background-color: hsl(176, 68%, 64%);
+                                padding: 1px;
+                            }
+                        }
+                    }
+                }
+                .descriptions{
+                    padding: 0px 10px 60px 10px;
+                    position: relative;
+                    .commma{
+                        position: relative;
+                        flex-direction: row;
+                        display: flex;
+                        align-items: flex-start;
+                        justify-content: flex-start;
+                        padding-left: 10px;
+                        .comma{
+                            width: 20px;
+                        }
+                    }
+                    .block-7-8-9{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        width: 330px;
+                        gap: 30px;
+                        margin: auto;
+                        .block-7{
+                            background-color: hsl(219, 30%, 18%);
+                            border-radius: 10px;
+                            padding: 35px 25px;
+                            display: flex;
+                            flex-direction: column;
+                            gap: 20px;
+                            .patel-text{
+                                font-size: 12px;
+                                line-height: 1.9em;
+                                font-family:'Open Sans';
+                                color:white;
+                            }
+                            .contact-1{
+                                display: flex;
+                                flex-direction: row;
+                                align-items: center;
+                                gap: 10px;
+                                .contact-image-1{
+                                    .Patel{
+                                        width: 30px;
+                                        border-radius: 30px;
+                                    }
+                                }
+                                .contact-info-1{
+                                    .full-name-1{
+                                        font-family: 'Open Sans';
+                                        color: white;
+                                        font-size: 13px;
+                                        font-weight: 700;
+                                        display: flex;
+                                        flex-direction: column;
+                                        gap: 2px;
+                                        .desc-1{
+                                            display: block;
+                                            font-size: 10px;
+                                            font-weight: 400;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .block-8{
+                            background-color: hsl(219, 30%, 18%);
+                            padding: 35px 25px;
+                            border-radius: 10px;
+                            display: flex;
+                            flex-direction: column;
+                            gap: 20px;
+                            .bruce-text{
+                                font-size: 12px;
+                                line-height: 1.7em;
+                                font-family:'Open Sans';
+                                color:white;
+                            }
+                            .contact-2{
+                                display: flex;
+                                flex-direction: row;
+                                align-items: center;
+                                gap: 10px;
+                                .contact-image-2{
+                                    .bruce{
+                                        width: 30px;
+                                        border-radius: 30px;
+                                    }
+                                }
+                                .contact-info-2{
+                                    .full-name-2{
+                                        font-family: 'Open Sans';
+                                        color: white;
+                                        font-size: 13px;
+                                        font-weight: 700;
+                                        display: flex;
+                                        flex-direction: column;
+                                        gap: 2px;
+                                        .desc-2{
+                                            display: block;
+                                            font-size: 10px;
+                                            font-weight: 400;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .block-9{
+                            background-color: hsl(219, 30%, 18%);
+                            padding: 35px 25px;
+                            border-radius: 10px;
+                            display: flex;
+                            flex-direction: column;
+                            gap: 20px;
+                            .iva-text{
+                                font-size: 12px;
+                                line-height: 1.7em;
+                                font-family:'Open Sans';
+                                color:white;
+                            }
+                            .contact-3{
+                                display: flex;
+                                flex-direction: row;
+                                align-items: center;
+                                gap: 10px;
+                                .contact-image-3{
+                                    .iva{
+                                        width: 30px;
+                                        border-radius: 30px;
+                                    }
+                                }
+                                .contact-info-3{
+                                    .full-name-3{
+                                        font-family: 'Open Sans';
+                                        color: white;
+                                        font-size: 13px;
+                                        font-weight: 700;
+                                        display: flex;
+                                        flex-direction: column;
+                                        gap: 2px;
+                                        .desc-3{
+                                            display: block;
+                                            font-size: 10px;
+                                            font-weight: 400;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .block-10{
+                background-color: hsl(217, 28%, 15%);
+                border-radius: 10px;
+                width: 94%;
+                padding: 40px 15px 40px 15px;
+                box-shadow: 3px 6px 4px black;  
+                margin: auto;
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                gap: 20px; 
+                z-index: 1;
+                position: relative;
+                top: 150px;
+                .text-10{
+                    font-size: 18px;
+                    font-weight: 700;
+                    font-family: 'Raleway';
+                    color: white;
+                } 
+                .sub-text-10{
+                    font-size: 14px;
+                    color: white;
+                    font-family: 'Open Sans';
+                }
+                .maill{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 20px;
+                    .mail{
+                        
+                        .input{
+                            font-family: 'Open Sans';
+                            padding: 15px 80px 15px 40px;
+                            border-radius: 30px;
+                            outline: none;
+                            border: none;
+                            box-shadow: 4px 8px 12px black;
+                        }
+                    }
+                    .mail[data-error]::after{
+                        content: attr(data-error);
+                        color:red;
+                        font-size: 11px;
+                        font-family: 'Open Sans';
+                    }
+                    .submit{
+                        padding: 15px 75px;
+                        background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%)) ;
+                        font-weight: 700;
+                        font-family: 'Raleway';
+                        color: white;
+                        text-align: center;
+                        border: none;
+                        border-radius:30px;
+                        box-shadow: 4px 8px 12px black;
+                    }
+                    .submit:hover{
+                        background-image: linear-gradient(to right, hsl(198, 60%, 50%),hsl(176, 68%, 64%));
+                        cursor: pointer;
+                    } 
+                }
+            }
+            footer{
+                background-color: hsl(216, 53%, 9%);
+                padding: 160px 20px 120px 20px;
+                display: flex;
+                flex-direction: column;
+                gap: 40px;
+                .logoo{
+                    padding-top: 40px;
+                    .logo{
+                        width:200px;
+                    }
+                }
+                .block11-12-13{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 40px;
+                    .block11-12{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 40px;
+                        .block-11{
+                            display: flex;
+                            flex-direction: column;
+                            gap: 30px;
+                            .location{
+                                display: flex;
+                                flex-direction: row;
+                                align-items: flex-start ;
+                                gap:26px;
+                                .lorem-text{
+                                    .lorem{
+                                        font-family: 'Open Sans';
+                                        color: white;
+                                    }
+                                }
+                            }
+                        }
+                        .p-m{
+                            display: flex;
+                            flex-direction: column;
+                            gap:30px;
+                            .phone{
+                                display: flex;
+                                flex-direction: row;
+                                align-items: flex-start ;
+                                gap:20px;
+                                .phonee{
+                                    .phone-number{
+                                        font-family: 'Open Sans';
+                                            color: white;
+                                    }
+                                }
+                            }
+                            .mail{
+                                display: flex;
+                                flex-direction: row;
+                                align-items: flex-start ;
+                                gap:20px;
+                                .emaill{
+                                    .email-text{
+                                        font-family: 'Open Sans';
+                                        color: white;
+                                    }
+                                }
+                            }
+                        }
+                        .block-12{
+                            display: flex;
+                            flex-direction: column;
+                            gap: 30px;
+                            .block-12a{
+                                display: flex;
+                                flex-direction: column;
+                                gap: 10px;
+                                .a{
+                                    //font-size: 18px;
+                                    font-family: 'Open Sans';
+                                    color: white;
+                                }
+                                .a:hover{
+                                    font-weight: 700;
+                                }
+                            }
+                            .block-12b{
+                                display: flex;
+                                flex-direction: column;
+                                gap: 10px;
+                                .b{
+                                    //font-size: 18px;
+                                    font-family: 'Open Sans';
+                                    color: white;
+                                }
+                                .b:hover{
+                                    font-weight: 700;
+                                }
+                            }
+                        }
+                    }
+                    .block-13{
+                        .socials{
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 20px;
+                            .social{
+                                width: 40px;
+                                height: 40px;
+                                border-radius: 40px;
+                                padding:5px;
+                                border: 2px solid white;
+                            }
+                            .social{
+                                fill:white;
+                            }
+                            .social:hover{
+                                cursor: pointer;
+                                fill:hsl(176, 68%, 64%);
+                            }
+                        }        
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width:376px) {
+    body{
+        
+        background-color: hsl(218, 28%, 13%);
+        .container{
+            .main-container{
+                .top-container{
+                    .navbar{
+                        padding: 0px 100px;
+                        .fylo-top{
+                            .f-t{
+                                width: 100px;
+                            }
+                        }
+                        .navs{
+                            display: flex;
+                            flex-direction: row;
+                            gap: 40px;
+                            .navs-text{
+                                font-family:'Raleway' ;
+                                font-weight: 400;
+                                color: white;
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                    .image-top{
+                        .img-1{
+                            width: 50%;
+                        }
+                    }
+                    .bg-1{
+                        background-image: url(images/bg-curvy-desktop.svg);
+                        .block-1{
+                            width: 35%;
+                            justify-content: center;
+                            margin: auto;
+                        }
+                    }
+                    .blocks{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        .blocks2-3{
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: center;
+                            align-items: baseline;
+                            gap: 90px;
+                            .block-2{
+                                width: 358px;
+                            }
+                            .block-3{
+                                width: 358px;
+                            }
+                        }
+                        .blocks4-5{
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: center;
+                            align-items: baseline;
+                            gap: 90px;
+                            .block-4{
+                                width: 358px;
+                            }
+                            .block-5{
+                                width: 358px;
+                            }
+                        }
+                    }
+                    .mid-x-b6{
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: center;
+                        .mid-image{
+                            .mid-img{
+                                width: 60%;
+                            }
+                        }
+                        .block-6{
+                            width: 520px;
+                            .text-6{
+                                font-size: 25px;
+                                span{
+                                    display: block;
+                                }
+                            }
+                        }
+                    }
+                    .descriptions{
+                        .commma{
+                            padding-left: 140px;
+                            top:10px;
+                            .comma{
+                                width: 50px;
+                            }
+                        }
+                        .block-7-8-9{
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: center;
+                            align-content: center;
+                            width: 80%;
+                            position: relative;
+                            z-index: 1;
+                        }
+                    }
+                    .block-10{
+                        width: 60%;
+                        top: 100px;
+                        .sub-text-10{
+                            padding-left:60px;
+                            padding-right: 60px;
+                        }
+                        .maill{
+                            padding: 20px 0px;
+                            display: flex;
+                            flex-direction: row;
+                            align-items: flex-start;
+                            gap: 15px;
+                            .mail{
+                                display: flex;
+                                flex-direction: column;
+                                text-align: left;
+                                .input{
+                                    width: 450px;
+                                }
+                            }
+                            .submit{
+                                padding-left: 5%;
+                                padding-right: 5%;
+                            }
+                        }
+                    }    
+                }
+                footer{
+                    padding: 140px 100px;
+                    .logoo{
+                        .logo{
+                            width: 100px;
+                        }
+                    }
+                    .block11-12-13{
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        gap: 40px;
+                        .block11-12{
+                            display: flex;
+                            flex-direction: row;
+                            .block-11{
+                                display: flex;
+                                flex-direction: row;
+                                justify-content: space-evenly;
+                                .location{
+                                    width:400px;
+                                }
+                            }
+                            .block-12{
+                                display: flex;
+                                flex-direction: row;
+                            }
+                        }
+                    }
+                }
+                
+            }
+        }
+    }
+}
